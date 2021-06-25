@@ -1,0 +1,11 @@
+anyio<4,>=3.0.0
+
+[full]
+itsdangerous
+jinja2
+python-multipart
+pyyaml
+requests
+
+[full:python_version < "3.10"]
+graphene
